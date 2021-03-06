@@ -4,7 +4,8 @@
   "description": "Business Behind the Scenes is an application designed to be the backend for an e-commerce website.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

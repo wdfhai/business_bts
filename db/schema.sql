@@ -1,5 +1,5 @@
-DROP DATABASE IF EXISTS business_db;
+DROP DATABASE IF EXISTS ecommerce_db;
 
-CREATE DATABASE business_db;
+CREATE DATABASE ecommerce_db;
 
-USE business_db;
+USE ecommerce_db;
