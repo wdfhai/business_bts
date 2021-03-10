@@ -1,5 +1,5 @@
 const { Model, DataTypes } = require('sequelize');
-const { databaseVersion } = require('../../rice-hou-fsf-pt-11-2020-u-c/01-class-content/13-ORM/01-Activities/23-Ins_One-to-Many/config/connection');
+const { databaseVersion } = require('../config/connection');
 
 const sequelize = require('../config/connection');
 
