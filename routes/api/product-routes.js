@@ -8,10 +8,12 @@ router.get('/', async (req, res) => {
         {
           model: Category,
           where: Product.category_id = Category.id,
+          attributes: ['category_name'],
         },{
           model: Tag,
           through: ProductTag,
-          as: 'product_id'
+          as: 'product_id',
+          attributes: ['tag_name'],
         }],
     });
     res.status(200).json(productData);
